@@ -46,7 +46,8 @@ ds <- ds %>%
 # Sort the dataset by rank so that 1 is at the top
 
 #ANSWER
-arrange(ds, rank)
+ds <- ds %>% 
+  arrange(rank)
 
 ### Question 5 ----------
 
